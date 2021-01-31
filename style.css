@@ -1,0 +1,55 @@
+body {
+background-image: linear-gradient(160deg, #0093E9 40%, #80D0C7 100%);
+background-repeat: no-repeat;
+min-height: 100vh;
+font-family: 'Roboto', sans-serif;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+header {
+    font-size: 3rem;
+}
+
+form input, form button, label {
+    padding: 1rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+header, form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.todoList {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    padding-right: 15px;
+    flex: 1;
+}
+
+.done {
+    background-color: rgb(65, 201, 65)
+
+}
+
+
+
+
+
